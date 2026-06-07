@@ -23,7 +23,7 @@ The project compares the performance of **Logistic Regression**, **Random Forest
 
 The ROC curve compares the classification performance of Logistic Regression, Random Forest, and XGBoost across different decision thresholds. Random Forest achieved the highest AUC-ROC score, while XGBoost delivered competitive performance after threshold optimization.
 
-<img src="images/roc_curve.png" width="750">
+<img src="images/roc_curve.png" width="500">
 
 ---
 
@@ -41,7 +41,7 @@ The ROC curve compares the classification performance of Logistic Regression, Ra
 
 Feature importance analysis was performed using the tuned XGBoost model. The results indicate that **V14** is the most influential predictor of fraudulent transactions, followed by **V4**, **V12**, **V8**, and **V10**.
 
-<img src="images/feature_importance.png" width="750">
+<img src="images/feature_importance.png" width="500">
 
 ---
 
